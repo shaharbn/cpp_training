@@ -1,0 +1,6 @@
+alias gd='g++ -std=c++23 -pedantic-errors -Wall -Wextra -g'
+alias gc='g++ -std=c++23 -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
+
+#
+# Valgrind alias
+alias vlg='valgrind --leak-check=yes --track-origins=yes'
